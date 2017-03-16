@@ -10,10 +10,14 @@ def is_odd(a_number):
     and False if a_number is even.
     Look into modulo division using the '%' operator as one way of doing this.
     """
+    if a_number % 2 == 0:
+        return True
+    else:
+        return False
     pass
 
 
-def fix_it(moves=True, should_move=True):
+def fix_it(moves, should_move):
     """
     Using the engineerign flowchart for the rules, return the apropriate
     response to the input parameters.
@@ -23,6 +27,15 @@ def fix_it(moves=True, should_move=True):
     "Duct Tape"
     "No Problem"
     """
+    if (moves == True and should_move == True):
+        return "No Problem"
+    elif (moves == True and should_move == False):
+        return "Duct Tape"
+    elif (moves == False and should_move == True):
+        return "WD-40"
+    elif (moves == False and should_move == False):
+        return "No Problem"
+
     pass
 
 
@@ -32,8 +45,16 @@ def loops_1a():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
+    starPrint = ['*'] * 10
+    for i in range(10):
+        starPrint[i] = '*'
+
+    return starPrint
     pass
 
+#my function!
+def star():
+    return '*'
 
 def loops_1b():
     """
@@ -41,6 +62,8 @@ def loops_1b():
     return a list of 10 items, each one a string with exacly one star in it.
     E.g.: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
     """
+    
+    stars = map(star, range(10))
     pass
 
 

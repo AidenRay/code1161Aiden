@@ -1,7 +1,11 @@
 name: Aiden Ray
 studentNumber: z3460907
 gitHubUsername: AidenRay
+<<<<<<< HEAD
 stackoverflow: http://stackoverflow.com/users/XX/aiden-ray
+=======
+stackoverflow: http://stackoverflow.com/users/7045231/aiden-ray
+>>>>>>> origin/master
 mediumUsername: AidenRay
 unswEmail: z3460907@ad.unsw.edu.au
 realEmailFirstBit: aidenunsw  # this avoids spam
