@@ -1,12 +1,12 @@
-# -*- coding: UTF-8 -*-
+# "-*- coding: UTF-8 -*-"
 """
-Modify each function until the tests pass
+Modify each function until the tests pass.
 """
 
 
 def loop_ranger(start, stop=None, step=1):
     """
-    return a list of numbers between start and stop in steps of step
+    Return a list of numbers between start and stop in steps of step
     Do this using any method apart from just using range()
     """
     return [i for i in range(start, stop, step)]
@@ -15,7 +15,7 @@ def loop_ranger(start, stop=None, step=1):
 
 def lone_ranger(start, stop, step):
     """
-    loop_ranger duplicate the functionality of range.
+    Loop_ranger duplicate the functionality of range.
     Look up the docs for range() and wrap it in a 1:1 way
     """
     return range(start, stop, step)
@@ -33,7 +33,7 @@ def two_step_ranger(start, stop):
 
 def gene_krupa_range(start, stop, even_step, odd_step):
     """
-    make a list that instead of having evenly spaced steps
+    Make a list that instead of having evenly spaced steps
     make odd steps be one size and even steps be another.
     """
     latest = start
