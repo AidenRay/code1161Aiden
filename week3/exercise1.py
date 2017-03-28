@@ -9,8 +9,7 @@ def loop_ranger(start, stop=None, step=1):
     Return a list of numbers between start and stop in steps of step
     Do this using any method apart from just using range()
     """
-    return [i for i in range(start, stop, step)]
-    pass
+   	return [i for i in range(start, stop, step)]
 
 
 def lone_ranger(start, stop, step):
